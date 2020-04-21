@@ -26,6 +26,9 @@ For this review data where language structures are complicated, we think Bag-of-
 
 4. Run a PCA and graph the first two PCs for the first 100 reviews. 
 
+![Image description](https://github.com/lzhu1111/Product-Review-Predictor/blob/master/PCA%20Graph.png)
+
+
 5. Perform a lasso logistic regression and measure the out-of-sample accuracy of your method of choice.
 
 I used logistic regression to predict the rating of 5 levels of a product. We may use ordinal logistic regression because we have ordinal target variables (ratings from 1-5 means worst to best). Therefore, we can use 0, 0.25, 0.5, 0.75, 1 as our output for the prediction. It is better to use ordinal logistic regression than MNL because MNL has no intrinsic ordering. Since there is an association between the levels of the ratings (5 levels), it is better to use ordinal logistic regression.
