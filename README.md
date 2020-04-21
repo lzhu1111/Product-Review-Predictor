@@ -26,6 +26,9 @@ For this review data where language structures are complicated, we think Bag-of-
 
 4. Run a PCA and graph the first two PCs for the first 100 reviews. 
 
+We ran a two-component PCA on the vocabulary vectors of the Word2Vec model for the first 100 reviews. Then we plot the two Primary components.
+It reflects our findings that negative reviews like “disappointing”, “not_work”, “not_track” are in one cluster and positive reviews like “like”, “recommend” are in another cluster. So both methods reviews some difference in these reviews.
+
 ![Image description](https://github.com/lzhu1111/Product-Review-Predictor/blob/master/PCA%20Graph.png)
 
 
