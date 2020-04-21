@@ -2,7 +2,7 @@
 Performed principal component analysis on 500,000+ lines of product review data and developed a lasso logistic regression model to predict the 5-star rating of Amazon electronics
 
 
-Tasks To Complete:
+## Tasks To Complete:
 
 1. Data Cleaning
 - Covert all reviewas to lower case
